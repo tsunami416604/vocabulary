@@ -54,9 +54,6 @@
       }
     },
     methods: {
-      handleClick () {
-        console.log('Doing something')
-      },
       focus () {
         // MacOS FireFox and Safari do not focus when clicked
         this.$refs.input.focus()
